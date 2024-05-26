@@ -215,6 +215,7 @@ a{
 }
 
 .our-goals h2{
+    font-size: x-large;
     color: var(--primary);
     text-align: center;
     padding:2em 0;
