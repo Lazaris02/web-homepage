@@ -251,11 +251,14 @@ a{
 
 
 .bullets{
-    list-style:inside;
-    color: var(--primary);
-    text-align: start;
+    color: var(--extra-contrast);
+    text-align: center;
     display: flex;
     flex-flow: row wrap;
+}
+
+.bullets li strong{
+    color: var(--primary);
 }
 
 #main-footer{
